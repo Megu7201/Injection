@@ -1,6 +1,6 @@
 node{
     stage("Git clone"){
-        git url:"http://192.168.11.11:3000/andy/Injection2Test.git"
+        git url:"http://192.168.11.11:3000/andy/InjectionJDBC.git"
     }
     stage('Sonar Analysis'){
         withSonarQubeEnv('sonar'){
