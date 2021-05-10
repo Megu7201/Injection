@@ -24,5 +24,5 @@ public class MyRepo {
         System.out.print(query);
         return jdbcTemplate.query(query, new BeanPropertyRowMapper(Animal.class));
         
-    }
+    } 
 }
