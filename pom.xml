@@ -17,6 +17,9 @@
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>8</java.version>
+        <sonar.projectKey>Megu7201_Injection</sonar.projectKey>
+        <sonar.organization>megu7201</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
     <dependencies>
         <dependency>
@@ -51,4 +54,5 @@
             </plugin>
         </plugins>
     </build>
+    
 </project>
